@@ -1,7 +1,15 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/daftar',
+        permanent: true, // true untuk SEO dan redirect permanen (301)
+      },
+    ];
+  },
 };
 
 export default nextConfig;
