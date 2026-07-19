@@ -137,8 +137,7 @@ export default function HalamanDaftar() {
       <div className="max-w-4xl mx-auto bg-white border-4 border-yellow-500 rounded-2xl shadow-2xl overflow-hidden">
         {/* Header Section */}
         <div className="bg-gradient-to-r from-red-700 via-red-800 to-red-900 px-6 py-8 text-center border-b-4 border-yellow-500">
-          <h1 className="text-2xl font-black tracking-tighter text-white sm:text-4xl uppercase italic">REGISTRASI TURNAMEN RI KE-81</h1>
-          <p className="mt-2 text-sm text-yellow-100 font-bold tracking-widest">Daftarkan tim terbaikmu untuk kemerdekaan MLBB!</p>
+          <h1 className="text-2xl font-black tracking-tighter text-white sm:text-4xl uppercase italic">REGISTRASI TURNAMEN MLBB HUT RI KE-81</h1>
         </div>
 
         {/* Form Utama */}
@@ -280,7 +279,7 @@ export default function HalamanDaftar() {
           {/* Tombol Submit */}
           <div className="pt-4">
             <button type="submit" className="w-full bg-red-800 hover:bg-red-900 text-white font-black text-sm py-4 px-4 rounded-xl shadow-lg transition-all transform active:scale-[0.99] border-b-4 border-red-950 uppercase">
-              Kirim Pendaftaran Merdeka!
+              Kirim Pendaftaran !
             </button>
           </div>
         </form>
